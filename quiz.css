@@ -1,0 +1,23 @@
+.row {
+	margin-bottom: 3em;
+}
+
+.card {
+	display: block;
+	border: 1px solid black;
+}
+
+h3 {
+	border: 1px dotted blue;
+	text-align: center; 
+}
+
+h4,h5 {
+	text-align: center;
+}
+
+.price {
+	background-color: darkgrey;
+	color: yellow;	
+}
+

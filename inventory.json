@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Ford",
+      "model": "Contour",
+      "year": "2000",
+      "price": "5999",
+      "description": "This is an immaculate 2000 Ford Contour with only 35000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": "2004",
+      "price": "6999",
+      "description": "This is an immaculate 2004 Toyota Corolla with only 30000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Nissan",
+      "model": "Quest",
+      "year": "2008",
+      "price": "12999",
+      "description": "This is an immaculate 2008 Nissan Quest with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Subaru",
+      "model": "Forester",
+      "year": "2014",
+      "price": "19999",
+      "description": "This is an immaculate 2014 Nissan Rogue with only 15000 miles on it. Leather seats, power everything."
+    }
+  ]
+}
