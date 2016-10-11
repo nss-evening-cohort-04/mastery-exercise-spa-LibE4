@@ -17,7 +17,7 @@ function populatePage (inventory) {
 					  	contentToDOM += '<div>' + carData[i].description + '</div>';
 				  	contentToDOM += '</card>';
 			  	contentToDOM += '</div>';
-  	if ((i - 2) % 3 === 0){
+  	if ((i - 2) % 3 === 0 || i === carData.length - 1){
 		  contentToDOM += '</div>';
 	  }
   }

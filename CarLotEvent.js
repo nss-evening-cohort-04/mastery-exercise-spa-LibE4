@@ -10,16 +10,16 @@ var CarLot = (function (CarLot) {
         targetEmt = this.childNodes[4];
         CarLot.setCard(this, "tomato");
         textInputEmt[0].disabled = false;
-        textInputEmt[0].value = "";
+        textInputEmt[0].value = targetEmt.innerHTML;
         textInputEmt[0].focus();
-        textInputEmt[0].addEventListener("keypress", inputText);
+        textInputEmt[0].addEventListener("keyup", inputText);
       });
 
       // add event listener to card element for mouseout, disable input when mouseout
       cards[i].addEventListener("mouseout", function(){
         textInputEmt[0].value = "";
         textInputEmt[0].disabled = true;
-        textInputEmt[0].removeEventListener("keypress", inputText);
+        textInputEmt[0].removeEventListener("keyup", inputText);
         CarLot.resetCard();
       });
     }
@@ -31,7 +31,7 @@ var CarLot = (function (CarLot) {
         e2.preventDefault();
         textInputEmt[0].value = "";
         textInputEmt[0].disabled = true;
-        textInputEmt[0].removeEventListener("keypress", inputText);
+        textInputEmt[0].removeEventListener("keyup", inputText);
         CarLot.resetCard();
       }
     } // end inputText

@@ -21,3 +21,13 @@ h4,h5 {
 	color: yellow;	
 }
 
+.is-table-row {
+  display: table;
+}
+
+.is-table-cell {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
